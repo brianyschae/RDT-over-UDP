@@ -19,9 +19,9 @@ N.log contains window size change logs
 ## To run
 Then run the receiver on host2:
 
-```receiver.py host1 <UDP port # to send ACKs> <UDP port # to receive data> <output file name>```
+`receiver.py host1 <UDP port # to send ACKs> <UDP port # to receive data> <output file name>`
 
 Then run te sender on host3:
 
-```sender.py host1 <UDP port # to send data> <UDP port # to receive ACKs> <timeout interval> <input file name>```
+`sender.py host1 <UDP port # to send data> <UDP port # to receive ACKs> <timeout interval> <input file name>`
 
